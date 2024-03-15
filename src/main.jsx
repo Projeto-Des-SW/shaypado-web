@@ -29,17 +29,17 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <BrowserRouter>
       <Routes>
         <Route element={<App />}>
-          <Route path='/' element={<LadingPage />} />
-          <Route path='/login' element={<Login />} />
-          <Route path='/home' element={<Private Item={Home} />} />
-          <Route path='/forgot-password' element={<ForgotPassword />} />
-          <Route path='/list-students' element={<ListStudents />} />
-          <Route path='/list-training' element={<ListTraining />} />
-          <Route path='/list-class' element={<ListClass />} />
-          <Route path='/list-historic' element={<ListHistoric />} />
-          <Route path='/manage-training' element={<ManageTraining />} />
-          <Route path='/manage-student' element={<ManageStudent />} />
-          <Route path='/manage-class' element={<ManageClass />} />
+          <Route path='/shaypado-web/' element={<LadingPage />} />
+          <Route path='/shaypado-web/login' element={<Login />} />
+          <Route path='/shaypado-web/home' element={<Private Item={Home} />} />
+          <Route path='/shaypado-web/forgot-password' element={<ForgotPassword />} />
+          <Route path='/shaypado-web/list-students' element={<ListStudents />} />
+          <Route path='/shaypado-web/list-training' element={<ListTraining />} />
+          <Route path='/shaypado-web/list-class' element={<ListClass />} />
+          <Route path='/shaypado-web/list-historic' element={<ListHistoric />} />
+          <Route path='/shaypado-web/manage-training' element={<ManageTraining />} />
+          <Route path='/shaypado-web/manage-student' element={<ManageStudent />} />
+          <Route path='/shaypado-web/manage-class' element={<ManageClass />} />
         </Route>
       </Routes>
     </BrowserRouter>

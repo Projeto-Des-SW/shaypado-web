@@ -42,7 +42,7 @@ const ClassCards = () => {
     } else {
       const currentNames = filteredNames.slice(currentIndex, currentIndex + 4);
       return currentNames.map((name, index) => (
-        <Link to="/manage-class" className={styles.card} key={index}>
+        <Link to="/shaypado-web/manage-class" className={styles.card} key={index}>
           <svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
             <circle cx="100" cy="100" r="100" fill="#C2C2C2" />
           </svg>
